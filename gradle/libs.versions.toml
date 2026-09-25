@@ -1,17 +1,17 @@
 [versions]
-agp = "8.7.3"
-kotlin = "2.1.0"
-compose-multiplatform = "1.7.3"
-ktor = "3.0.3"
-coroutines = "1.9.0"
-lifecycle = "2.8.4"
+agp = "8.13.2"
+kotlin = "2.4.20"
+compose-multiplatform = "1.12.1"
+ktor = "3.6.0"
+coroutines = "1.11.0"
+lifecycle = "2.11.0"
 
 [libraries]
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 ktor-network = { module = "io.ktor:ktor-network", version.ref = "ktor" }
-androidx-activity-compose = { module = "androidx.activity:activity-compose", version = "1.9.3" }
-androidx-core-ktx = { module = "androidx.core:core-ktx", version = "1.15.0" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version = "1.13.0" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version = "1.16.0" }
 lifecycle-viewmodel-compose = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle" }
 lifecycle-runtime-compose = { module = "org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycle" }
 
